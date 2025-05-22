@@ -34,22 +34,15 @@
   - ServiceWorker
 
 - type: department
-  id: CentralCommand
+  id: Centcomm
   name: department-CentralCommand
   description: department-CentralCommand-description
   color: "#0c344d"
   roles:
-  - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
-  editorHidden: true
+  - Captain
+  - ChiefEngineer
   weight: 120
+
 
 - type: department
   id: Command
