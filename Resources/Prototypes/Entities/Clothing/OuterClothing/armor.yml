@@ -64,6 +64,26 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBlueshield
+  name: bulletproof vest
+  description: A specialized bulletproof vest worn by blueshield officers, offers very good protection against various weaponry.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+
+- type: entity
+  parent: ClothingOuterArmorBase
   id: ClothingOuterArmorReflective
   name: reflective vest
   description: An armored vest with advanced shielding to protect against energy weapons.
