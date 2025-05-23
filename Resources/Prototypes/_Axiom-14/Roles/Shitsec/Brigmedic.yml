@@ -1,0 +1,40 @@
+- type: job
+  id: Brigmedic
+  name: Brigmedic
+  description: Securitys personal medic, used for healing prisoners and officers.
+  playTimeTracker: JobBrigmedic
+  requirements:
+  - !type:RoleTimeRequirement
+    role: JobSecurityOfficer
+    time: 36000 #10 hrs
+  startingGear: BrigmedicGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - Detective
+  - Cryogenics
+  - External
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+  implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: BrigmedicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+    outerClothing: ClothingOuterCoatAMG
+    back: ClothingBackpackBrigmedic
+    shoes: ClothingShoesColorRed
+    gloves: ClothingHandsGlovesNitrile
+    eyes: ClothingEyesHudMedical
+    head: ClothingHeadHatBeretBrigmedic
+    id: BrigmedicPDA
+    ears: ClothingHeadsetBrigmedic
+    mask: ClothingMaskBreathMedicalSecurity
+    belt: ClothingBeltMedicalFilled
