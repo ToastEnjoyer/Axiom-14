@@ -16,7 +16,6 @@
   - Brig
   - Maintenance
   - Service
-  - Detective
   - Cryogenics
   - External
   - Medical
@@ -30,11 +29,14 @@
     jumpsuit: ClothingUniformJumpsuitBrigmedic
     outerClothing: ClothingOuterCoatAMG
     back: ClothingBackpackBrigmedic
-    shoes: ClothingShoesColorRed
-    gloves: ClothingHandsGlovesNitrile
-    eyes: ClothingEyesHudMedical
+    shoes: ClothingShoesBootsJack
+    gloves: ClothingHandsGlovesCombat
+    eyes: lothingEyesHudMedSec
     head: ClothingHeadHatBeretBrigmedic
     id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
     mask: ClothingMaskBreathMedicalSecurity
     belt: ClothingBeltMedicalFilled
+    storage:
+    back:
+    - Flash
