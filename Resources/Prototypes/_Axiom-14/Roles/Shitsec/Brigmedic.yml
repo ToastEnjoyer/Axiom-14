@@ -37,6 +37,6 @@
     ears: ClothingHeadsetBrigmedic
     mask: ClothingMaskBreathMedicalSecurity
     belt: ClothingBeltMedicalFilled
-  storage:
+- storage:
     back:
     - Flash
