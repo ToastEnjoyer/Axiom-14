@@ -22,7 +22,7 @@
   - Medical
   special:
   - !type:AddImplantSpecial
-  implants: [ MindShieldImplant ]
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: BrigmedicGear
