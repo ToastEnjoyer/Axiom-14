@@ -492,11 +492,11 @@
   name: brigmedic
   components:
   - type: SpawnPoint
-  - job_id: Brigmedic
+    job_id: Brigmedic
   - type: Sprite
     layers:
-      - state: green
-      - state: brigmedic
+    - state: green
+    - state: brigmedi
 
 # SPECIAL
 # ERT
