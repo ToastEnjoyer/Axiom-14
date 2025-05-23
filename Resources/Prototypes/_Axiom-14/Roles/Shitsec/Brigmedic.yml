@@ -31,7 +31,7 @@
     back: ClothingBackpackBrigmedic
     shoes: ClothingShoesBootsJack
     gloves: ClothingHandsGlovesCombat
-    eyes: lothingEyesHudMedSec
+    eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretBrigmedic
     id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
